@@ -1,0 +1,202 @@
+.container {
+  max-width: 320px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.logo2 {
+  margin-left: 1010px;
+  display: flex;
+  width: 50px;
+  height: 80px;
+}
+
+nav {
+
+  color: white;
+
+}
+
+/*tamanho do menu*/
+.logo img {
+  max-width: 80px;
+  margin-left: -770px;
+}
+
+.cadastro {
+  margin-left: -110px;
+  
+}
+
+header {
+  background-color: #3D3D3D;
+  width: 100%;
+}
+
+body {
+  background-color: #292929;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow: hidden;
+  /*barra de rolamento */
+}
+
+/*quadrado branco*/
+.login {
+  background-color: #292929;
+  width: 600px;
+  height: 400px;
+  /*tamanho do quadrado*/
+  padding: 60px;
+  border: 2px solid white;
+}
+
+/*logo do usuario central*/
+.login img {
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  margin-top: -200px;
+  align-items: center;
+  margin-left: 230px;
+}
+
+.area-login {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  text-align: center;
+}
+
+form input {
+  margin-bottom: 20px;
+}
+
+input {
+  width: 41%;
+  height: 20px;
+  padding: 5px;
+  border: 3px solid green;
+  border-radius: 5px;
+  font-size: 1.3rem;
+
+}
+
+input.email,
+input.password {
+  width: 85%;
+  height: 20px;
+}
+  /*bolinha*/
+input[type="checkbox"] {
+  transform: scale(1.5);
+  float: left;
+  margin-left: -40px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #ccc;
+  
+}
+/*termos de acordo*/
+.box span {
+  margin-left: -90px;
+  color: white;
+}
+
+/*Ciente e acordo */
+.box2 span {
+  margin-left: -20px;
+  color: white;
+
+}
+
+/*botao*/
+.botao {
+  height: 60px;
+  background-color: #292929;
+  color: white;
+  margin-left: -10px;
+  margin-top: 50px;
+  cursor: auto;
+  font-weight: bold;
+}
+
+.cad {
+  color: white;
+  margin-top: -8px;
+}
+
+.Log {
+  color: green;
+  text-decoration: none;
+}
+
+.cadastro {
+  color: white;
+  margin-left: -70px;
+  text-decoration: none;
+ 
+}
+
+/*caixa*/
+  #caixinha-pessoa-fisica{
+    position: absolute;
+    margin-left: 635px ;
+    margin-top: -100px;
+    position: absolute;
+    
+  }
+
+  #caixinha-pessoa-juridica{
+    position: absolute;
+    margin-left:-150px ;
+    margin-top: -100px;
+    position: absolute;
+  }
+  label {
+    display: inline-block;
+   /* vertical-align: middle;*/
+  }
+  /*pessoa fisica e juridica*/
+  .teste {
+    margin-top: -95px;
+    color: white;
+    margin-left: -1px;
+    vertical-align: top;
+  }
+  .teste2 {
+    margin-top: -20px;
+    position: relative;
+    color: white;
+    vertical-align: top;
+    top: -95px;
+    margin-left:480px;
+  }
+  /*cor da bolinha*/
+  input[type="checkbox"]:checked {
+    background-color: #25995C;
+    border-color:#25995C;
+  }
+
+  #folha{
+    color: #008b45;
+}
+
+
+
+  
+  
+  
+  
+  
+  
+  

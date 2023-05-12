@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pif-On</title>
+    <link rel="stylesheet" href="../css/tela_inicial.css" />
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <!--Script-->
+    <script src="../js/carrossel.js"></script>
+</head>
+
+<body>
+    <nav class="sidebar">
+        <a href="#" class="logo"></a>
+
+        <img class="PifonLogo" src="../img/Icon_Logo.png" alt="pif on">
+
+        <div class="menu-content">
+            <ul class="menu-items">
+                <div class="menu-title">CATEGORIAS</div>
+
+                <li class="item">
+                    <a href="#">Mesas</a>
+                </li>
+
+                <li class="item">
+                    <div class="submenu-item">
+                        <span>Acessorios</span>
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+
+                    <ul class="menu-items submenu">
+                        <div class="menu-title">
+                            <i class="fa-solid fa-chevron-left"></i>
+                            Acessorios
+                        </div>
+                        <li class="item">
+                            <a href="#">Perifericos</a>
+                        </li>
+                        <li class="item">
+                            <a href="#">Cadeiras</a>
+                        </li>
+                        <li class="item">
+                            <a href="#">Monitores</a>
+                        </li>
+
+                        <li class="item">
+                            <a href="../../Campanha/html/marketing.html">Mouse</a>
+                        </li>
+
+                        <li class="item">
+                            <a href="#">Teclados</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="item">
+                    <div class="submenu-item">
+                        <span>Computadores</span>
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+
+                    <ul class="menu-items submenu">
+                        <div class="menu-title">
+                            <i class="fa-solid fa-chevron-left"></i>
+                            Computadores
+                        </div>
+                        <li class="item">
+                            <a href="#">Notbooks</a>
+                        </li>
+                        <li class="item">
+                            <a href="#">Descktop</a>
+                        </li>
+
+                        <li class="item">
+                            <a href="#">Placa de video</a>
+                        </li>
+
+                        <li class="item">
+                            <a href="#">Placa mãe</a>
+                        </li>
+
+                </li>
+
+            </ul>
+            <li class="itemPifados">
+                <a href="/Front-End/src/components/Pifados/html/Pifados.html">Pifados</a>
+            </li>
+        </div>
+    </nav>
+
+    <nav class="navbar">
+        <i class="fa-solid fa-bars" id="sidebar-close"></i>
+        <form action="#" method="pt">
+            
+            <!--navegação-->
+            <input class="searchbar" tyoe="text" name="search" id="search" placeholder="Faça sua Busca" required>
+            <span class="searchButton">
+                <i class='bx bx-search'></i>
+            </span>
+            
+            <div class="header-icons">
+             <a href="../../Campanha/html/campanha2.html">  <i id="folha" class='bx bxs-leaf'></i></a> 
+                <div id="fav"><i class='bx bxs-heart'></i></div>
+                <i class='bx bx-cart' id="carrinho-icon"></i>
+                <i class='bx bx-headphone'></i>
+                <div id="menu"><i class='bx bx-user-circle' id="perfil-icon"></i></div>
+
+            </div><!--header-icons-->
+            
+        </nav>
+    </form>
+    
+    <main class="main">
+        
+        <div class="container-slider">
+            
+            <div class="container-slider-images">
+                
+                <img src="../img/Banner_sustentavel_pifon.png" alt="gabinete" class="slider on">
+                <img src="../img/pifon-produto-teclado.png" alt="Monitor" class="slider">
+                <img src="../img/pifon-produto-mouse.png" alt="mouse" class="slider">
+                <img src="../img/pifon-produto-headset.png" alt="teclado" class="slider">
+                
+                <button id="next-button"><img src="../img/arrow.png" alt="next-button"></button>
+                
+                <button id="prev-button"><img src="../img/arrow.png" alt="prev-button"></button>
+
+                <div class="ofertas-container">
+                    <h1 id="ofertapage">OFERTAS!!</h1>
+                    <img class="img-oferta" src="../img/timer-promocao.png" alt="timer-promocao">
+                </div>
+
+                <!--TESTE-->
+                
+                <div class="card-container">
+                    
+                    <div class="card">
+                        <div class="card-image"><img id="img-item" src="../img/mouse-loja.png" alt=""></div>
+                        <div class="card-details">
+                            <h2 class="card-title">Mouse</h2>
+                        <p class="card-price">R$ 530,00</p>
+                        <p class="card-description">Mouse Gamer One piece</p>
+                        <button class="card-button"><a class="Comprar" href="../../Campanha/html/marketing.html">Comprar</a></button>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="card-image"><img id="img-item" src="../../Campanha/img/teclado-shop.png" alt=""></div>
+                    <div class="card-details">
+                        <h2 class="card-title">Teclado Gamer</h2>
+                        <p class="card-price">R$ 750,00</p>
+                        <p class="card-description">teclado gamer com rgb</p>
+                        <button class="card-button"><a class="Comprar" href="../../Campanha/html/teclado.html">Comprar</a></button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-image"><img id="img-item" src="../../Campanha/img/fone-shop.png" alt=""></div>
+                    <div class="card-details">
+                        <h2 class="card-title">Gabinete Gamer</h2>
+                        <p class="card-price">R$ 900,00</p>
+                        <p class="card-description">Gabinete Gamer branco</p>
+                        <button class="card-button"><a class="Comprar" href="../../Campanha/html/fone.html">comprar</a></button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-image"><img id="img-item" src="../img/placa-de-video.png" alt=""></div>
+                    <div class="card-details">
+                        <h2 class="card-title">Placa de vídeo</h2>
+                        <p class="card-price">R$ 2.000,00</p>
+                        <p class="card-description">Placa de vídeo 2060</p>
+                        <button class="card-button">Comprar</button>
+                    </div>
+                </div>
+                
+                
+            </div>
+            <!--TESTE-->
+            </div>
+            <!-- janela carrinho -->
+        <div id="cart-window">
+            <p id="carrinho_vazio">Carrinho Vazio <i class='bx bx-cart'></i></p>
+        </div>
+
+        <div id="perfil-window">
+            <p id="carrinho_vazio">
+            <div id="perfil1"><labe id="perfilI">Cadastro</label></div>
+        
+            <div id="perfil2"><label id="perfilII">Login</label></div>
+            </i></p>
+        </div>
+        
+        
+            
+            
+            
+            
+            
+            
+            
+        </main>
+        
+        <script src="../../Pifados/js/carrinho.js"></script>
+    <script src="../../Pifados/js/perfil.js"></script>
+        <script src="../js/script.js"></script>
+    <script src="../js/sideBar.js"></script>
+</body>
+
+</html>

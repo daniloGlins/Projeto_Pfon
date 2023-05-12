@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="../css/menu.css">
+<html lang="pt-br">
+
+<head>
+    <script src="menu.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+
+<body>
+
+    <header>
+
+        <div class="container">
+            <div class="logo"><a href="/Front-End/src/components/Tela_Inicial/html/Tela_Inicial.html"><img src="/Front-End/src/components/Campanha/img/Icon_Logo.png" alt=""></a></div>
+            <div class="logo2"><img src="../img/user1.png" alt=""></div>
+            <div class="cadastro">
+                <nav>
+                    <a class="cadastro" href="#"> Cadastro</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <ul id="menu">
+    </ul>
+    <section class="area-login">
+
+        <div class="login">
+            <div>
+                <input type="checkbox" id="caixinha-pessoa-fisica">
+                 <label class="teste" for="caixinha-pessoa-fisica">Pessoa física</label>             
+                <input type="checkbox" id="caixinha-pessoa-juridica">
+                <label  class="teste2" for="caixinha-pessoa-fisica">Pessoa Juridica</label>   
+                <div class="logo2" style="margin-top: -100px; margin-left: -100px;" ><img src="g" alt=""></div>
+
+                <img class="centro" src="../img/user1.png" alt="">
+                
+            </div>
+            <form method="post">
+                
+                <input type="text" name="nome" placeholder="Nome" autofocus>
+                <input type="text" name="nome" placeholder="CPF" autofocus>
+                <br>
+                <input type="text" name="nome" placeholder="Data de nascimento" autofocus>
+                <input type="text" name="nome" placeholder="Telefone" autofocus>
+                <br>
+                <input type="text" name="nome" placeholder="Email" autofocus class="email">
+                <br>
+                <input type="password" name="nome" placeholder="Senha" autofocus class="password">
+                <br>
+                <div class="box">
+                    <input type="checkbox"><span>Quero receber ofertas e novidades por E-mail,SMS e WhatsApp da
+                        PifOn</span>
+                </div>
+                <br>
+                <br>
+                <div class="box2">
+                    <input type="checkbox"><span>Eu estou CIENTE e CONCORDO com os termos de politica de privacidade da
+                        PifOn</span>
+
+                </div>
+                <input class="botao" type="submit" value="CONTINUAR">
+                <b>
+                    <p class="cad">Ja possui cadastro ?<a class="Log" href="#"> Login</a></p>
+                </b>
+            </form>
+        </div>
+
+    </section>
+</body>
+
+</html>

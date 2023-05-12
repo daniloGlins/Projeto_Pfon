@@ -1,0 +1,120 @@
+/*Nav bar*/
+.container {
+  max-width: 320px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.logo2 {
+  margin-left: 1010px;
+  display: flex;
+  width: 50px;
+  height: 80px;
+}
+
+nav {
+
+  color: white;
+}
+
+/*tamanho do menu*/
+.logo img {
+  max-width: 80px;
+  margin-left: -770px;
+}
+
+.cadastro {
+  margin-left: -110px;
+}
+
+header {
+  background-color: #3D3D3D;
+  width: 100%;
+}
+
+body {
+  background-color: #292929;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow: hidden;
+  /*barra de rolamento */
+}
+
+/*Login principal*/
+.area-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+/*Quadrado em branco*/
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 555px;
+  height: 410px;
+  padding: 55px;
+  border-radius: 8px;
+  border: 2px solid white;
+}
+
+.login form {
+  display: flex;
+  flex-direction: column;
+  /*input acima do outro*/
+  width: 100%;
+}
+
+/*inputs*/
+.login input {
+  margin-top: 10px;
+  /*distancia entre os inputs*/
+  background-color: #292929;
+  height: 45px;
+  /*tamanho do input*/
+  border-radius: 8px;
+  /*curvatura do input*/
+  color: white;
+  padding-left: 10px;
+  border: 2px solid green;
+}
+
+.login img {
+  width: 95px;
+  height: auto;
+}
+
+.input::placeholder {
+  color: white;
+  font-size: 14px;
+}
+
+/*botão*/
+form [type="submit"] {
+  display: block;
+  background-color: #25995C;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+p {
+  color: white;
+}
+
+a {
+  color: #18DF56;
+  text-decoration: none;
+  /*Remover barrinha do link*/
+  cursor: pointer;
+}
+
+#login {
+  color: white;
+}
